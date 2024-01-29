@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1083671_corpgift.e_voucherUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>e_voucherUtils</name>
+        <script><![CDATA[var e_voucherUtils = Class.create();
+e_voucherUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getProjectAccount: function() {
+        var returnValue;
+        var userID = this.getParameter('sysparm_userID');
+        if (!gs.nil(userID)) {
+            var userGR = new GlideRecord('x_1083671_corpgift_employee');
+            if (userGR.get(userID)) {
+                returnValue = userGR.project_account;
+            }
+        }
+        return returnValue;
+    }, type: 'e_voucherUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 18:03:00</sys_created_on>
+        <sys_id>5be9fb4a93f331105d1e7b732bba1020</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>e_voucherUtils</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_1083671_corpgift">a2caad21933331105d1e7b732bba10e6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Corporate Gifting">a2caad21933331105d1e7b732bba10e6</sys_scope>
+        <sys_update_name>sys_script_include_5be9fb4a93f331105d1e7b732bba1020</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 21:41:39</sys_updated_on>
+    </sys_script_include>
+</record_update>

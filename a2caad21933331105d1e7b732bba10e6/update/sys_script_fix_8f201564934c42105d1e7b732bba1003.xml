@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description>To debug a query of E-Voucher requests for the logged in employee</description>
+        <name>E-Voucher Related List Query</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[var evoucherGR = new GlideRecord('sc_req_item');
+
+evoucherGR.addQuery('requested_for', 'fd080ea5937731105d1e7b732bba1072');
+evoucherGR.query();
+gs.addInfoMessage("Evoucher has next: " + evoucherGR.getRowCount());
+while (evoucherGR.next()) {
+    gs.addInfoMessage(evoucherGR.number);
+    gs.addInfoMessage(evoucherGR.description);
+    gs.addErrorMessage(evoucherGR.cat_item);
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-26 23:51:33</sys_created_on>
+        <sys_id>8f201564934c42105d1e7b732bba1003</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>E-Voucher Related List Query</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_1083671_corpgift">a2caad21933331105d1e7b732bba10e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">a2caad21933331105d1e7b732bba10e6</sys_scope>
+        <sys_update_name>sys_script_fix_8f201564934c42105d1e7b732bba1003</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-27 00:08:21</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

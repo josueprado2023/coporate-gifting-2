@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1083671_corpgift_employee" version="2" view="corporate">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_1083671_corpgift_employee" element="NULL" name="x_1083671_corpgift_employee" parent="NULL" relationship="NULL" sys_domain="global" view="af5d5a6593b731105d1e7b732bba1010">f9d2d635937331105d1e7b732bba102b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-18 15:22:54</sys_created_on>
+            <sys_id>f1d2d635937331105d1e7b732bba102c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-18 15:22:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>user_name</element>
+            <list_id display_value="x_1083671_corpgift_employee" element="NULL" name="x_1083671_corpgift_employee" parent="NULL" relationship="NULL" sys_domain="global" view="af5d5a6593b731105d1e7b732bba1010">f9d2d635937331105d1e7b732bba102b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-18 15:22:54</sys_created_on>
+            <sys_id>75d2d635937331105d1e7b732bba102c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-18 15:22:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_1083671_corpgift_employee" element="NULL" name="x_1083671_corpgift_employee" parent="NULL" relationship="NULL" sys_domain="global" view="af5d5a6593b731105d1e7b732bba1010">f9d2d635937331105d1e7b732bba102b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-18 15:22:54</sys_created_on>
+            <sys_id>f5d2d635937331105d1e7b732bba102c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-18 15:22:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>email</element>
+            <list_id display_value="x_1083671_corpgift_employee" element="NULL" name="x_1083671_corpgift_employee" parent="NULL" relationship="NULL" sys_domain="global" view="af5d5a6593b731105d1e7b732bba1010">f9d2d635937331105d1e7b732bba102b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-18 15:22:54</sys_created_on>
+            <sys_id>79d2d635937331105d1e7b732bba102c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-18 15:22:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>manager</element>
+            <list_id display_value="x_1083671_corpgift_employee" element="NULL" name="x_1083671_corpgift_employee" parent="NULL" relationship="NULL" sys_domain="global" view="af5d5a6593b731105d1e7b732bba1010">f9d2d635937331105d1e7b732bba102b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-18 15:22:54</sys_created_on>
+            <sys_id>f9d2d635937331105d1e7b732bba102c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-18 15:22:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>e_wallet_balance</element>
+            <list_id display_value="x_1083671_corpgift_employee" element="NULL" name="x_1083671_corpgift_employee" parent="NULL" relationship="NULL" sys_domain="global" view="af5d5a6593b731105d1e7b732bba1010">f9d2d635937331105d1e7b732bba102b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-18 15:22:54</sys_created_on>
+            <sys_id>7dd2d635937331105d1e7b732bba102c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-18 15:22:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>e_wallet_balance_validity</element>
+            <list_id display_value="x_1083671_corpgift_employee" element="NULL" name="x_1083671_corpgift_employee" parent="NULL" relationship="NULL" sys_domain="global" view="af5d5a6593b731105d1e7b732bba1010">f9d2d635937331105d1e7b732bba102b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-18 15:22:54</sys_created_on>
+            <sys_id>fdd2d635937331105d1e7b732bba102c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-18 15:22:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>awards_appreciations</element>
+            <list_id display_value="x_1083671_corpgift_employee" element="NULL" name="x_1083671_corpgift_employee" parent="NULL" relationship="NULL" sys_domain="global" view="af5d5a6593b731105d1e7b732bba1010">f9d2d635937331105d1e7b732bba102b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-18 15:22:54</sys_created_on>
+            <sys_id>71d2d635937331105d1e7b732bba102d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-18 15:22:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1083671_corpgift_employee</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-18 15:22:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9d2d635937331105d1e7b732bba102b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1083671_corpgift_employee</sys_name>
+            <sys_package display_value="Corporate Gifting" source="x_1083671_corpgift">a2caad21933331105d1e7b732bba10e6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Corporate Gifting">a2caad21933331105d1e7b732bba10e6</sys_scope>
+            <sys_update_name>sys_ui_list_x_1083671_corpgift_employee_corporate</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-18 15:22:54</sys_updated_on>
+            <sys_user/>
+            <view display_value="Corporate" name="corporate">af5d5a6593b731105d1e7b732bba1010</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
