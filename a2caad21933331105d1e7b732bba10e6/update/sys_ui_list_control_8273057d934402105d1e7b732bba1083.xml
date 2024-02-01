@@ -9,14 +9,18 @@
         <filter_condition/>
         <filter_roles/>
         <hierarchical_lists>false</hierarchical_lists>
-        <label>E-Wallet balance below 400</label>
+        <label>Employees whose mngr is current user</label>
         <link_condition/>
         <link_roles/>
-        <list_edit_insert_row>true</list_edit_insert_row>
+        <list_edit_insert_row>false</list_edit_insert_row>
         <list_edit_ref_qual_tag/>
         <list_edit_type/>
-        <name>x_1083671_corpgift_e_wallet_request</name>
-        <new_condition/>
+        <name>x_1083671_corpgift_employee</name>
+        <new_condition><![CDATA[if(parent.sys_id == gs.getUserID()){
+	answer = false;
+}else{
+	answer = true;
+}]]></new_condition>
         <new_roles/>
         <omit_columns_if_empty>false</omit_columns_if_empty>
         <omit_count>false</omit_count>
@@ -27,22 +31,22 @@
         <omit_filters>false</omit_filters>
         <omit_if_empty>false</omit_if_empty>
         <omit_links>false</omit_links>
-        <omit_new_button>true</omit_new_button>
-        <related_list>REL:19ccd78c93c002105d1e7b732bba1073</related_list>
+        <omit_new_button>false</omit_new_button>
+        <related_list>REL:bc082f88930402105d1e7b732bba10e4</related_list>
         <sys_class_name>sys_ui_list_control</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-25 21:18:48</sys_created_on>
+        <sys_created_on>2024-01-30 19:52:50</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>a457ef48930402105d1e7b732bba1098</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>x_1083671_corpgift_e_wallet_request</sys_name>
+        <sys_id>8273057d934402105d1e7b732bba1083</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1083671_corpgift_employee</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="Corporate Gifting" source="x_1083671_corpgift">a2caad21933331105d1e7b732bba10e6</sys_package>
         <sys_policy/>
         <sys_scope display_value="Corporate Gifting">a2caad21933331105d1e7b732bba10e6</sys_scope>
-        <sys_update_name>sys_ui_list_control_a457ef48930402105d1e7b732bba1098</sys_update_name>
+        <sys_update_name>sys_ui_list_control_8273057d934402105d1e7b732bba1083</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-30 19:51:34</sys_updated_on>
+        <sys_updated_on>2024-01-30 20:04:41</sys_updated_on>
     </sys_ui_list_control>
 </record_update>

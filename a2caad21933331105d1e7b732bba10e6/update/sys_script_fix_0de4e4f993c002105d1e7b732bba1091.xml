@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description>To get a list of e-vouchers requests submitted by the same employee </description>
+        <name>E-Voucher Request opened by same employe</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[var requestGR = new GlideRecord('sc_request');
+var ritmGQ = requestGR.addJoinQuery('sc_req_item');
+requestGR.addQuery('opened_by', 'fd080ea5937731105d1e7b732bba1072');
+ritmGQ.addCondition('cat_item.name', 'E-Voucher Request');
+requestGR.query();
+if(requestGR.next()){
+	gs.addInfoMessage('Gary has opened E-Voucher requests: ' + requestGR.getRowCount());
+}
+]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-30 17:51:53</sys_created_on>
+        <sys_id>0de4e4f993c002105d1e7b732bba1091</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>E-Voucher Request opened by same employe</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_1083671_corpgift">a2caad21933331105d1e7b732bba10e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">a2caad21933331105d1e7b732bba10e6</sys_scope>
+        <sys_update_name>sys_script_fix_0de4e4f993c002105d1e7b732bba1091</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-30 17:51:53</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

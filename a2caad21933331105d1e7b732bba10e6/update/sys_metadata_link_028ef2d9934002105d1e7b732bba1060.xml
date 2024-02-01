@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>b7651235937331105d1e7b732bba1067</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="x_1083671_corpgift_employee">
+    <x_1083671_corpgift_employee action="INSERT_OR_UPDATE">
+        <accumulated_roles/>
+        <active>true</active>
+        <avatar/>
+        <awards_appreciations/>
+        <building/>
+        <calendar_integration>1</calendar_integration>
+        <city/>
+        <company/>
+        <cost_center/>
+        <country/>
+        <date_format/>
+        <default_perspective/>
+        <department/>
+        <e_wallet_balance/>
+        <e_wallet_balance_validity/>
+        <e_wallet_budget/>
+        <edu_status>faculty</edu_status>
+        <email>Kevin.Mannins@test.com</email>
+        <employee_number/>
+        <enable_multifactor_authn>false</enable_multifactor_authn>
+        <failed_attempts/>
+        <federated_id>p1FESPcwEGMVCi8jVkxrsdcV0k3ICZ2wC1wiaKaxbKQ=</federated_id>
+        <first_name>Kevin</first_name>
+        <gender/>
+        <hashed_user_id>cf4798002cb2cc8a2f525c937cf6ead0250c19ac95d127c5cd3daeada8b7a196</hashed_user_id>
+        <home_phone/>
+        <internal_integration_user>false</internal_integration_user>
+        <introduction/>
+        <last_login/>
+        <last_login_device/>
+        <last_login_time/>
+        <last_name>Mannins</last_name>
+        <last_password/>
+        <ldap_server/>
+        <location/>
+        <locked_out>false</locked_out>
+        <manager/>
+        <middle_name/>
+        <mobile_phone>76673400</mobile_phone>
+        <name>Kevin Mannins</name>
+        <notification>2</notification>
+        <number>EMP0001031</number>
+        <password_needs_reset>false</password_needs_reset>
+        <phone/>
+        <photo/>
+        <position_level>hr</position_level>
+        <preferred_language/>
+        <project_account>ptl_india_ltd</project_account>
+        <roles/>
+        <schedule/>
+        <source/>
+        <state/>
+        <street/>
+        <sys_class_name>x_1083671_corpgift_employee</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-18 15:35:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b7651235937331105d1e7b732bba1067</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-18 15:35:29</sys_updated_on>
+        <time_format/>
+        <time_zone/>
+        <title/>
+        <user_name>Kevin.Mannins</user_name>
+        <user_password/>
+        <vip>false</vip>
+        <web_service_access_only>false</web_service_access_only>
+        <zip/>
+    </x_1083671_corpgift_employee>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-29 15:32:32</sys_created_on>
+        <sys_id>028ef2d9934002105d1e7b732bba1060</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Kevin Mannins</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_1083671_corpgift">a2caad21933331105d1e7b732bba10e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">a2caad21933331105d1e7b732bba10e6</sys_scope>
+        <sys_update_name>sys_metadata_link_028ef2d9934002105d1e7b732bba1060</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-29 15:32:32</sys_updated_on>
+        <tablename>x_1083671_corpgift_employee</tablename>
+    </sys_metadata_link>
+</record_update>
