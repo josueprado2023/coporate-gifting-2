@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>award_appreciation</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    // Add your code here
+    var label = current.award_appreciation.getDisplayValue();
+	template.print('You were granted the next award/appreciation: ' + label);
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-01 21:36:20</sys_created_on>
+        <sys_id>5424af9a938402105d1e7b732bba101a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>award_appreciation</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_1083671_corpgift">a2caad21933331105d1e7b732bba10e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">a2caad21933331105d1e7b732bba10e6</sys_scope>
+        <sys_update_name>sys_script_email_5424af9a938402105d1e7b732bba101a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-01 21:39:25</sys_updated_on>
+    </sys_script_email>
+</record_update>

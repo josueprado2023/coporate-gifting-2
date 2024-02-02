@@ -4,13 +4,13 @@
             <element>process_flow.xml</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-30 15:33:52</sys_created_on>
-            <sys_id>5368043d934002105d1e7b732bba1033</sys_id>
+            <sys_created_on>2024-02-01 20:34:04</sys_created_on>
+            <sys_id>1450a79a938402105d1e7b732bba10e5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Process Flow">09fe3321934002105d1e7b732bba1044</sys_ui_formatter>
             <sys_ui_section caption="NULL" display_value="" name="x_1083671_corpgift_e_wallet_request" sys_domain="global" view="Default view">e8128c35934002105d1e7b732bba1030</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-30 15:33:52</sys_updated_on>
+            <sys_updated_on>2024-02-01 20:34:04</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-30 15:33:52</sys_created_on>
-            <sys_id>1f68043d934002105d1e7b732bba1033</sys_id>
+            <sys_created_on>2024-02-01 20:34:04</sys_created_on>
+            <sys_id>9c50a79a938402105d1e7b732bba10e5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083671_corpgift_e_wallet_request" sys_domain="global" view="Default view">e8128c35934002105d1e7b732bba1030</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-30 15:33:52</sys_updated_on>
+            <sys_updated_on>2024-02-01 20:34:04</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>number</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-30 15:33:52</sys_created_on>
-            <sys_id>9f68043d934002105d1e7b732bba1033</sys_id>
+            <sys_created_on>2024-02-01 20:34:04</sys_created_on>
+            <sys_id>1050a79a938402105d1e7b732bba10e6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083671_corpgift_e_wallet_request" sys_domain="global" view="Default view">e8128c35934002105d1e7b732bba1030</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-30 15:33:52</sys_updated_on>
+            <sys_updated_on>2024-02-01 20:34:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>requested_by</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-30 15:33:52</sys_created_on>
-            <sys_id>1368043d934002105d1e7b732bba1034</sys_id>
+            <sys_created_on>2024-02-01 20:34:04</sys_created_on>
+            <sys_id>9050a79a938402105d1e7b732bba10e6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083671_corpgift_e_wallet_request" sys_domain="global" view="Default view">e8128c35934002105d1e7b732bba1030</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-30 15:33:52</sys_updated_on>
+            <sys_updated_on>2024-02-01 20:34:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>requested_for</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-30 15:33:52</sys_created_on>
-            <sys_id>9368043d934002105d1e7b732bba1034</sys_id>
+            <sys_created_on>2024-02-01 20:34:04</sys_created_on>
+            <sys_id>1450a79a938402105d1e7b732bba10e6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083671_corpgift_e_wallet_request" sys_domain="global" view="Default view">e8128c35934002105d1e7b732bba1030</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-30 15:33:52</sys_updated_on>
+            <sys_updated_on>2024-02-01 20:34:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,111 +74,139 @@
             <element>watch_list</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-30 15:33:52</sys_created_on>
-            <sys_id>1768043d934002105d1e7b732bba1034</sys_id>
+            <sys_created_on>2024-02-01 20:34:04</sys_created_on>
+            <sys_id>9450a79a938402105d1e7b732bba10e6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083671_corpgift_e_wallet_request" sys_domain="global" view="Default view">e8128c35934002105d1e7b732bba1030</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-30 15:33:52</sys_updated_on>
+            <sys_updated_on>2024-02-01 20:34:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>award_appreciation</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-01 20:34:04</sys_created_on>
+            <sys_id>1850a79a938402105d1e7b732bba10e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1083671_corpgift_e_wallet_request" sys_domain="global" view="Default view">e8128c35934002105d1e7b732bba1030</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-01 20:34:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>e_wallet_amount</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-01 20:34:04</sys_created_on>
+            <sys_id>9850a79a938402105d1e7b732bba10e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1083671_corpgift_e_wallet_request" sys_domain="global" view="Default view">e8128c35934002105d1e7b732bba1030</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-01 20:34:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>6</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-30 15:33:52</sys_created_on>
-            <sys_id>9768043d934002105d1e7b732bba1034</sys_id>
+            <sys_created_on>2024-02-01 20:34:04</sys_created_on>
+            <sys_id>1c50a79a938402105d1e7b732bba10e6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083671_corpgift_e_wallet_request" sys_domain="global" view="Default view">e8128c35934002105d1e7b732bba1030</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-30 15:33:52</sys_updated_on>
+            <sys_updated_on>2024-02-01 20:34:04</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>7</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-30 15:33:52</sys_created_on>
-            <sys_id>1b68043d934002105d1e7b732bba1034</sys_id>
+            <sys_created_on>2024-02-01 20:34:04</sys_created_on>
+            <sys_id>9c50a79a938402105d1e7b732bba10e6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083671_corpgift_e_wallet_request" sys_domain="global" view="Default view">e8128c35934002105d1e7b732bba1030</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-30 15:33:52</sys_updated_on>
+            <sys_updated_on>2024-02-01 20:34:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assignment_group</element>
-            <position>8</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-30 15:33:52</sys_created_on>
-            <sys_id>9b68043d934002105d1e7b732bba1034</sys_id>
+            <sys_created_on>2024-02-01 20:34:04</sys_created_on>
+            <sys_id>1050a79a938402105d1e7b732bba10e7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083671_corpgift_e_wallet_request" sys_domain="global" view="Default view">e8128c35934002105d1e7b732bba1030</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-30 15:33:52</sys_updated_on>
+            <sys_updated_on>2024-02-01 20:34:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>9</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-30 15:33:52</sys_created_on>
-            <sys_id>1f68043d934002105d1e7b732bba1034</sys_id>
+            <sys_created_on>2024-02-01 20:34:04</sys_created_on>
+            <sys_id>9050a79a938402105d1e7b732bba10e7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083671_corpgift_e_wallet_request" sys_domain="global" view="Default view">e8128c35934002105d1e7b732bba1030</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-30 15:33:52</sys_updated_on>
+            <sys_updated_on>2024-02-01 20:34:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_rejection_reason</element>
-            <position>10</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-30 15:33:52</sys_created_on>
-            <sys_id>9f68043d934002105d1e7b732bba1034</sys_id>
+            <sys_created_on>2024-02-01 20:34:04</sys_created_on>
+            <sys_id>1450a79a938402105d1e7b732bba10e7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083671_corpgift_e_wallet_request" sys_domain="global" view="Default view">e8128c35934002105d1e7b732bba1030</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-30 15:33:52</sys_updated_on>
+            <sys_updated_on>2024-02-01 20:34:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>11</position>
+            <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-30 15:33:52</sys_created_on>
-            <sys_id>1368043d934002105d1e7b732bba1035</sys_id>
+            <sys_created_on>2024-02-01 20:34:04</sys_created_on>
+            <sys_id>9450a79a938402105d1e7b732bba10e7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083671_corpgift_e_wallet_request" sys_domain="global" view="Default view">e8128c35934002105d1e7b732bba1030</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-30 15:33:52</sys_updated_on>
+            <sys_updated_on>2024-02-01 20:34:04</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>comments_and_work_notes</element>
-            <position>12</position>
+            <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-30 15:33:52</sys_created_on>
-            <sys_id>9368043d934002105d1e7b732bba1035</sys_id>
+            <sys_created_on>2024-02-01 20:34:04</sys_created_on>
+            <sys_id>1850a79a938402105d1e7b732bba10e7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083671_corpgift_e_wallet_request" sys_domain="global" view="Default view">e8128c35934002105d1e7b732bba1030</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-30 15:33:52</sys_updated_on>
+            <sys_updated_on>2024-02-01 20:34:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
