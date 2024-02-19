@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="776231ed93f331105d1e7b732bba10f6" extends="task" label="E-Wallet Request by Managers" max_length="40" name="x_1083671_corpgift_e_wallet_request" type="collection">
+    <element audit="true" db_object_id="776231ed93f331105d1e7b732bba10f6" extends="task" label="E-Wallet Request by Managers" max_length="40" name="x_1083671_corpgift_e_wallet_request" type="collection">
         <element choice="1" label="Award/Appreciation" mandatory="true" max_length="40" name="award_appreciation" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Escalation Handling Appreciation" sequence="0" value="200"/>

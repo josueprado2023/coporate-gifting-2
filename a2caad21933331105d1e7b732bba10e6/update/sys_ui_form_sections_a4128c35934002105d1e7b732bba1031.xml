@@ -14,6 +14,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-01-30 15:06:49</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 22:13:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1007455747d8c21001093e58c26d435d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1083671_corpgift_e_wallet_request" name="x_1083671_corpgift_e_wallet_request" sys_domain="global" view="Default view">a4128c35934002105d1e7b732bba1031</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1083671_corpgift_e_wallet_request" sys_domain="global" view="Default view">af0dec934758c21001093e58c26d43b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 22:13:51</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1083671_corpgift_e_wallet_request</name>
             <roles/>

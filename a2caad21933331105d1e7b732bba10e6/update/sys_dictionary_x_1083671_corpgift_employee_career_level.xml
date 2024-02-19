@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="e_wallet_balance" table="x_1083671_corpgift_employee">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="career_level" table="x_1083671_corpgift_employee">
         <active>true</active>
         <array>false</array>
         <attributes>edge_encryption_enabled=true</attributes>
@@ -8,7 +8,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>E-Wallet Balance</column_label>
+        <column_label>Career Level</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,13 +21,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>e_wallet_balance</element>
+        <element>career_level</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Integer">integer</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_1083671_corpgift_employee</name>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-17 18:10:14</sys_created_on>
-        <sys_name>E-Wallet Balance</sys_name>
+        <sys_created_on>2024-02-16 21:10:47</sys_created_on>
+        <sys_name>Career Level</sys_name>
         <sys_package display_value="Corporate Gifting" source="x_1083671_corpgift">a2caad21933331105d1e7b732bba10e6</sys_package>
         <sys_policy/>
         <sys_scope display_value="Corporate Gifting">a2caad21933331105d1e7b732bba10e6</sys_scope>
-        <sys_update_name>sys_dictionary_x_1083671_corpgift_employee_e_wallet_balance</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1083671_corpgift_employee_career_level</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-16 21:31:25</sys_updated_on>
+        <sys_updated_on>2024-02-16 21:10:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="cb8fa9e993f331105d1e7b732bba1070" extends="sys_user" label="Employee" max_length="40" name="x_1083671_corpgift_employee" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Awards/Appreciations" max_length="1000" name="awardsappreciations" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Awards/Appreciations" max_length="1000" name="awards_appreciations" type="string"/>
-        <element default="0" label="E-Wallet Balance" max_length="40" name="e_wallet_balance" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Career Level" max_length="40" name="career_level" type="string"/>
+        <element label="E-Wallet Balance Validity" max_length="40" name="ewalletbalancevalidity" type="glide_date"/>
+        <element label="E-Wallet Budget" max_length="40" name="ewallet_budget" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="E-Wallet Balance" max_length="40" name="e_wallet_balance" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="E-Wallet Balance Validity" max_length="40" name="e_wallet_balance_validity" type="glide_date"/>
-        <element label="E-Wallet Budget" max_length="40" name="e_wallet_budget" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="1" label="E-Wallet Budget" max_length="40" name="e_wallet_budget" read_only="true" type="integer"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="senior_associate" label="Position Level" mandatory="true" max_length="40" name="position_level" type="choice">
             <choice>
