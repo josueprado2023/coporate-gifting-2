@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>sysapproval_approver</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>Short Description: ${sysapproval.short_description}</p>
+<p>Requestor: ${sysapproval.variables.requested_by}</p>
+<p>Project/Account: ${sysapproval.variables.project_account}</p>
+<p>E-Voucher Type: ${sysapproval.variables.e_voucher_type}</p>
+<p>E-Voucher Brand: ${sysapproval.variables.e_voucher_brand}</p>
+<p>E-Voucher Amount: ${sysapproval.variables.e_voucher_amount}</p>
+<p>Quantity: ${sysapproval.variables.quantity}</p>
+<p>E-Voucher Price: ${sysapproval.variables.e_voucher_price}</p>
+<p>Comments: ${sysapproval.variables.comments}</p>
+<p>${sysapproval.description}</p>
+<p>${mailto:mailto.approval}</p>
+<p>&nbsp;</p>
+<p>${mailto:mailto.rejection}</p>
+<p>Approval Activity:</p>
+<p>${mail_script:approval_activity}</p>
+<p>&nbsp;</p>
+<p>Click here to view Approval Request: ${URI+&amp;amp;sysparm_record_target=sysapproval_approver}</p>
+<p>Click here to view ${sysapproval.sys_class_name}: ${sysapproval.URI}</p>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>E-voucher approval template</name>
+        <sms_alternate/>
+        <subject>${sysapproval.sys_class_name} ${sysapproval} Approval Request</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 20:07:42</sys_created_on>
+        <sys_id>4164c41047640a1001093e58c26d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>E-voucher approval template</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_1083671_corpgift">a2caad21933331105d1e7b732bba10e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">a2caad21933331105d1e7b732bba10e6</sys_scope>
+        <sys_update_name>sysevent_email_template_4164c41047640a1001093e58c26d43b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-19 20:07:42</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>
