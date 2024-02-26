@@ -8,6 +8,8 @@
         <element attributes="edge_encryption_enabled=true" label="E-Wallet Balance" max_length="40" name="e_wallet_balance" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="E-Wallet Balance Validity" max_length="40" name="e_wallet_balance_validity" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" default="1" label="E-Wallet Budget" max_length="40" name="e_wallet_budget" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Manager Email" max_length="40" name="manager_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Manager Mobile Number" max_length="40" name="manager_mobile_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="senior_associate" label="Position Level" mandatory="true" max_length="40" name="position_level" type="choice">
             <choice>

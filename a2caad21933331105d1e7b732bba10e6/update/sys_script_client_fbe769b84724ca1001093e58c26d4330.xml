@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Display Info message on top of the form of “E-Wallet Request by Managers” displaying “E-Wallet Request is in &lt;Request_status_value&gt; State.” where &lt;Request_status_value&gt; would be replaced with the correct value.</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>W5 Display Info message</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    var REQstatus = g_form.getValue('state');
+    switch (REQstatus) {
+        case '1':
+          g_form.addInfoMessage("E-Wallet Request is in Submitted State");
+            break;
+        case '2':
+            g_form.addInfoMessage("E-Wallet Request is in Approval Requested State");
+            break;
+        case '3':
+           g_form.addInfoMessage("E-Wallet Request is in Approved State State ♥");
+            break;
+        case '4':
+           g_form.addInfoMessage("E-Wallet Request is in Completed  State ");
+            break;
+        case '5':
+            g_form.addInfoMessage("E-Wallet Request is in Rejected State");
+            break;
+        case '6':
+           g_form.addInfoMessage("E-Wallet Request is in Cancelled State");
+            break;
+
+
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 16:37:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fbe769b84724ca1001093e58c26d4330</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>W5 Display Info message</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Corporate Gifting" source="x_1083671_corpgift">a2caad21933331105d1e7b732bba10e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">a2caad21933331105d1e7b732bba10e6</sys_scope>
+        <sys_update_name>sys_script_client_fbe769b84724ca1001093e58c26d4330</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:04:45</sys_updated_on>
+        <table>x_1083671_corpgift_e_wallet_request</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
